@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import "partial/mixin";
+@import "partial/variable";
+@import "../components/Layout/Navbar/navbar";
+@import "../components/Pages/Home/Banner/banner";
