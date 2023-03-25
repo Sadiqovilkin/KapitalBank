@@ -361,6 +361,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className="mobile_navbar"></div>
     </header>
   );
 };
