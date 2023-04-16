@@ -1,65 +1,217 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const Swiper = () => {
+// Import Swiper styles
+
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+
+// import "./styles.css";
+
+// import required modules
+import { EffectFade, Navigation, Pagination } from "swiper";
+
+const Slider = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non unde nam
-      rerum reprehenderit mollitia sequi ut maxime quod, culpa quis excepturi
-      ratione iusto obcaecati cupiditate modi ipsam harum architecto beatae
-      ducimus. Possimus doloremque cupiditate non inventore, ex quisquam.
-      Exercitationem alias quia dignissimos porro unde autem earum temporibus
-      expedita quisquam, enim tenetur natus debitis libero molestiae labore
-      voluptas, corrupti vitae quaerat est blanditiis, error pariatur iusto
-      beatae harum. Doloremque voluptates laboriosam possimus, vitae quibusdam
-      eius repellendus hic. Sapiente placeat facere dignissimos! Molestias error
-      vitae, sint pariatur quod reprehenderit exercitationem nulla nesciunt ex
-      omnis corrupti cumque sed debitis, deleniti illum! Animi corporis id ut
-      unde reiciendis explicabo quisquam at aliquam. Deleniti aliquam
-      voluptatibus vitae magni corporis impedit consequuntur sit eius aperiam,
-      illum earum sapiente unde laudantium aliquid atque illo aut, labore eaque?
-      Ducimus nemo similique minus repellendus cupiditate reprehenderit aliquid
-      dolorum assumenda fugit maiores eveniet inventore libero unde suscipit
-      incidunt animi veritatis deleniti, ea possimus perspiciatis officiis
-      labore voluptas laudantium. Necessitatibus earum porro corrupti nam
-      sapiente. Iste veritatis quia quisquam, impedit itaque quasi animi
-      blanditiis nam repellat alias dolorum eius, ipsa commodi reprehenderit
-      aliquam debitis corporis rem minima! Molestiae, numquam repellat eos
-      perspiciatis ratione cupiditate soluta assumenda architecto accusamus, ut
-      beatae laudantium saepe obcaecati modi voluptas aliquam explicabo eaque
-      nemo provident quis, veritatis iusto. Dicta iste, voluptatibus dolores
-      repudiandae dolorum maxime pariatur ab nihil ea, enim laudantium commodi
-      praesentium voluptates exercitationem? A obcaecati reprehenderit sapiente
-      quas vel itaque numquam? Dolorem, distinctio, animi earum delectus
-      nesciunt molestias dicta magnam doloremque, ad fugiat perspiciatis esse
-      enim? Amet voluptas qui dignissimos modi ex, ipsum eius eaque sequi odit
-      assumenda vero quisquam sint aperiam dicta temporibus ea saepe, tempora
-      iusto laudantium sunt id similique. Culpa fugiat eveniet deserunt iusto
-      adipisci praesentium expedita accusamus commodi temporibus. Quasi
-      distinctio nemo maxime non. Repellendus, in dolorum atque assumenda, esse
-      nemo, neque corrupti deleniti libero aspernatur enim ducimus debitis
-      eveniet sed ipsum sint iure sunt omnis! At earum sed aspernatur! Natus
-      accusamus impedit praesentium architecto, ab odit dolorem quam at et minus
-      consectetur sint maxime sequi sed vitae sapiente, modi a maiores numquam?
-      Ut obcaecati dolorum quis iusto hic temporibus dolore maxime laborum a
-      sequi dicta, fugit quas. Iste, quisquam rerum quibusdam doloremque
-      exercitationem nisi odio ullam. Nulla pariatur voluptates dicta est
-      tempora exercitationem, maxime doloremque. Labore ullam architecto non
-      reiciendis, suscipit ratione quibusdam quia iste commodi recusandae neque
-      quasi, voluptate debitis velit, optio soluta nihil est cumque! Provident
-      iusto molestias facilis temporibus corrupti repudiandae animi, blanditiis
-      quia, modi, officia atque quod voluptatibus est quibusdam nam voluptate
-      repellendus magnam aut nulla commodi? Veritatis voluptatum quo incidunt!
-      Temporibus corporis dolor facere quo dolore culpa illo quidem sint
-      perspiciatis dignissimos odio accusamus eos explicabo esse, ut
-      necessitatibus ipsam. Dolorem quos quisquam nulla sint eligendi voluptatum
-      autem iste molestiae cupiditate repellat, eum voluptates vel, eaque
-      obcaecati maiores nihil asperiores hic? Quidem, eos. Molestias laudantium
-      maiores possimus quae quam assumenda, praesentium nisi expedita dolor
-      dolores adipisci ut eligendi! Exercitationem, voluptate cumque earum
-      officiis alias porro dolorum molestiae iure a harum, fugit ad nisi
-      deleniti?
-    </div>
+    <>
+      <section id="slider" className="py-5">
+        <Swiper
+          spaceBetween={30}
+          effect={"fade"}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[EffectFade, Navigation, Pagination]}
+          className="mySwiper2"
+        >
+          <SwiperSlide>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="slider_text">
+                    <h3>
+                      {" "}
+                      Birbank <strong>Cashback taksit</strong>
+                    </h3>
+                    <p>
+                      {" "}
+                      Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan
+                      keşbek, faizsiz və komissiyasız taksit imkanı verən unikal
+                      bir kartdır.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="slider">
+              <div className="container">
+                <div className="slider_list">
+                  <ul>
+                    <li>
+                      <span>30%-dək keşbek və 2 qat ƏDV</span>Bonus{" "}
+                    </li>
+                    <li>
+                      <span>pulsuz</span>Kartın qiyməti{" "}
+                    </li>
+                    <li>
+                      <span>63 günədək</span>Güzəşt müddəti{" "}
+                    </li>
+                  </ul>
+                  <a href="#">Sifariş et</a>
+                </div>
+                <div className="slider_image">
+                  <img
+                    src="https://www.kapitalbank.az/images/cards/B/birbank-cashback-home.png?v=4"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="slider_text">
+                    <h3>
+                      {" "}
+                      Birbank <strong>Umico taksit</strong>
+                    </h3>
+                    <p>
+                      {" "}
+                      Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan
+                      keşbek, faizsiz və komissiyasız taksit imkanı verən unikal
+                      bir kartdır.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="slider">
+              <div className="container">
+                <div className="slider_list">
+                  <ul>
+                    <li>
+                      <span>1.5%-dən başlayan</span>Keşbek{" "}
+                    </li>
+                    <li>
+                      <span>pulsuz</span>Kartın qiyməti{" "}
+                    </li>
+                    <li>
+                      <span>63 günədək</span>Güzəşt müddəti{" "}
+                    </li>
+                  </ul>
+                  <a href="#">Sifariş et</a>
+                </div>
+                <div className="slider_image">
+                  <img
+                    src="https://www.kapitalbank.az/images/cards/B/birbank-umico-home.png?v=4"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="slider_text">
+                    <h3>
+                      {" "}
+                      Birbank <strong>Miles taksit</strong>
+                    </h3>
+                    <p>
+                      {" "}
+                      Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan
+                      keşbek, faizsiz və komissiyasız taksit imkanı verən unikal
+                      bir kartdır.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="slider">
+              <div className="container">
+                <div className="slider_list">
+                  <ul>
+                    <li>
+                      <span>30%-dək keşbek və 2 qat ƏDV</span>Bonus{" "}
+                    </li>
+                    <li>
+                      <span>pulsuz</span>Kartın qiyməti{" "}
+                    </li>
+                    <li>
+                      <span>63 günədək</span>Güzəşt müddəti{" "}
+                    </li>
+                  </ul>
+                  <a href="#">Sifariş et</a>
+                </div>
+                <div className="slider_image">
+                  <img
+                    src="https://www.kapitalbank.az/images/cards/B/birbank-miles-home.png?v=4"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </section>
+      <section id="loan">
+        <div className="container mb-5">
+          <div className="row justify-content-end">
+            <div className="col-lg-8">
+              <div className="slider_text">
+                <h3>
+                  {" "}
+                  Birbank <strong>Cashback taksit</strong>
+                </h3>
+                <p>
+                  {" "}
+                  Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan
+                  keşbek, faizsiz və komissiyasız taksit imkanı verən unikal bir
+                  kartdır.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="slider">
+          <div className="container">
+            <div className="slider_image">
+              <img
+                src="https://www.kapitalbank.az/assets/static/img/main-page/daily-loan3.png"
+                alt=""
+              />
+            </div>
+            <div className="row justify-content-end">
+              <div className="col-lg-8">
+                <div className="slider_list">
+                  <ul>
+                    <li>
+                      {" "}
+                      <span>30 000 AZN-dək</span> Kredit məbləği{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <span>59 ayadək</span> Kredit müddəti{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <span>13%-dən</span> İllik faiz dərəcəsi{" "}
+                    </li>
+                  </ul>
+                  <a href="#">Sifariş et</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
-export default Swiper;
+export default Slider;
