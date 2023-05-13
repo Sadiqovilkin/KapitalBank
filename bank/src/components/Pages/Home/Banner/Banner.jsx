@@ -137,7 +137,7 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
-            <p class="card_title">
+            <p className="card_title">
               <strong>Taksit kartı </strong>sifariş et
             </p>
           </div>
@@ -147,7 +147,7 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
-            <p class="card_title">
+            <p className="card_title">
               <strong>Taksit kartı </strong>sifariş et
             </p>
           </div>
@@ -157,7 +157,7 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
-            <p class="card_title">
+            <p className="card_title">
               <strong>Taksit kartı </strong>sifariş et
             </p>
           </div>
@@ -167,7 +167,7 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
-            <p class="card_title">
+            <p className="card_title">
               <strong>Taksit kartı </strong>sifariş et
             </p>
           </div>
@@ -177,7 +177,7 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
-            <p class="card_title">
+            <p className="card_title">
               <strong>Taksit kartı </strong>sifariş et
             </p>
           </div>

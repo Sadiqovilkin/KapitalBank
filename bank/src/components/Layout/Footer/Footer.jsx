@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="footer_socials ">
+        <div className="footer_socials ">
           <ul>
             <li>
               <a href="#" className="phoneNumber">
@@ -156,12 +156,12 @@ const Footer = () => {
         </div>
         <div className="footer_bottom">
           <div className="row">
-            <div class="col-md-6 col-12 d-flex align-items-center  justify-content-start">
-              <p class="copyright font-s font-14 text-white m-0 text-center">
+            <div className="col-md-6 col-12 d-flex align-items-center  justify-content-start">
+              <p className="copyright font-s font-14 text-white m-0 text-center">
                 © 2023 «Kapital Bank» ASC. Bütün hüquqlar qorunur.
               </p>
             </div>
-            <div class="col-md-6 col-12">
+            <div className="col-md-6 col-12">
               <div className="footer_logos">
                 <div className="logo">
                   <a
@@ -169,7 +169,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener"
                     aria-label="e-gov.az"
-                    class="d-flex align-items-center underline-none "
+                    className="d-flex align-items-center underline-none "
                     title="e-gov.az"
                   >
                     <img
@@ -184,7 +184,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener"
                     aria-label="adif.az"
-                    class="d-flex align-items-center underline-none h-100"
+                    className="d-flex align-items-center underline-none h-100"
                     title="adif.az"
                   >
                     {" "}
@@ -201,7 +201,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener"
                     aria-label="infobank.az"
-                    class="d-flex align-items-center underline-none h-100"
+                    className="d-flex align-items-center underline-none h-100"
                     title="infobank.az"
                   >
                     {" "}
@@ -217,7 +217,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener"
                     aria-label="bizimpullar.az"
-                    class="d-flex align-items-center underline-none h-100"
+                    className="d-flex align-items-center underline-none h-100"
                     title="bizimpullar.az"
                   >
                     {" "}

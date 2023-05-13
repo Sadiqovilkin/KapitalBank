@@ -5,8 +5,15 @@
       line-height: 45px;
       font-weight: 400;
       margin-bottom: 14px;
+      @media (max-width: 768px) {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
     }
     p {
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
       font-size: 18px;
       line-height: 23px;
       max-width: 580px;
@@ -17,8 +24,17 @@
     background-color: #e9ecf0;
     padding: 34px 0;
     position: relative;
+    @media (max-width: 768px) {
+      margin-top: 140px;
+    }
+    @media (max-width: 570px) {
+      margin-top: 160px;
+    }
     .slider_list {
       ul {
+        @media (max-width: 768px) {
+          opacity: 0;
+        }
         padding: 0;
         margin: 0;
         max-width: 63%;
@@ -41,6 +57,15 @@
         }
       }
       a {
+        @media (max-width: 768px) {
+          margin-left: 120px;
+        }
+        @media (max-width: 570px) {
+          margin-left: 90px;
+        }
+        @media (max-width: 420px) {
+          margin-left: 60px;
+        }
         width: 280px;
         background-color: #f45369;
         border-radius: 8px;
@@ -60,8 +85,22 @@
       position: absolute;
       right: 145px;
       bottom: 0;
+      @media (max-width: 768px) {
+        right: 126px;
+        bottom: 120px;
+      }
+      @media (max-width: 570px) {
+        right: 70px;
+        bottom: 200px;
+      }
+      @media (max-width: 420px) {
+        right: 30px;
+      }
       img {
         width: 320px;
+        @media (max-width: 420px) {
+          width: 300px;
+        }
       }
     }
   }
@@ -74,6 +113,12 @@
 
     .swiper-button-next {
       &::after {
+        @media (max-width: 768px) {
+          bottom: 0px;
+        }
+        @media (max-width: 768px) {
+          right: 40px;
+        }
         position: absolute;
         bottom: -100px;
         right: 50px;
@@ -96,7 +141,14 @@
         right: auto;
         left: 50px;
       }
+      @media (max-width: 414px) {
+        right: auto;
+        left: 40px;
+      }
       &::after {
+        @media (max-width: 768px) {
+          top: 10px;
+        }
         position: absolute;
         top: 112px;
         // right: 100px;
@@ -172,8 +224,14 @@
     }
     .slider_image {
       position: absolute;
-      left: 145px;
+      left: 135px;
       bottom: 0;
+      @media (max-width: 998px) {
+        left: 50px;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
       img {
         width: 320px;
       }

@@ -1,7 +1,13 @@
 import React from "react";
 
 const Exchange = () => {
-  return <div>Exchange</div>;
+  return (
+    <section id="exchange">
+      <div className="container">
+        <div className="row"></div>
+      </div>
+    </section>
+  );
 };
 
 export default Exchange;

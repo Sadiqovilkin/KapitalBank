@@ -187,7 +187,7 @@ const Slider = () => {
               />
             </div>
             <div className="row justify-content-end">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-6 col-sm-12">
                 <div className="slider_list">
                   <ul>
                     <li>
