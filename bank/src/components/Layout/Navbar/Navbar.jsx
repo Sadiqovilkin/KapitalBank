@@ -198,7 +198,7 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li>
-                    <Link to="*">İPOTEKALAR</Link>
+                    <Link>İPOTEKALAR</Link>
                   </li>
                   <li id="list_deposite">
                     <Link to="/deposits">DEPOZİTLƏR</Link>
@@ -211,9 +211,7 @@ const Navbar = () => {
                                 <ul>
                                   <li>
                                     {" "}
-                                    <Link to="/deposits/kapital">
-                                      Kapital depoziti
-                                    </Link>
+                                    <Link>Kapital depoziti</Link>
                                   </li>
                                   <li>Müddətsiz depozit</li>
                                   <li>Depozit seyfləri</li>

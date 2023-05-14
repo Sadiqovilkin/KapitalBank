@@ -1,4 +1,3 @@
-import Kapital from "./Pages/Depozit-Kapital/Kapital";
 import Deposits from "./Pages/Depozitler/Deposits";
 import Home from "./Pages/Home/Home";
 import Cashback from "./Pages/Kartlar-Cashback/Cashback";
@@ -8,6 +7,7 @@ import Transfers from "./Pages/Kocurmeler/Transfers";
 import Orders from "./Pages/Xidmetler/Orders";
 import Company from "./Pages/Kampaniya/Companys";
 import Error from "./Pages/Error/Error";
+import Carloan from "./Pages/Cars_loan/Carloan";
 
 const Routs = [
   {
@@ -41,10 +41,10 @@ const Routs = [
     fallback: <Deposits />,
   },
   {
-    path: "/deposits/kapital",
+    path: "/loans/avtomobil-krediti",
     exact: "true",
-    component: <Kapital />,
-    fallback: <Kapital />,
+    component: <Carloan />,
+    fallback: <Carloan />,
   },
   {
     path: "/transfers",

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Loan = () => {
   return (
     <section id="loan">
@@ -114,7 +114,8 @@ const Loan = () => {
                   avtomobil krediti ilə əldə edin.
                 </p>
                 <div className="buttons">
-                  <a href="">Sifariş et</a>
+                  <Link to="/loans/avtomobil-krediti">Sifariş et</Link>
+
                   <button>Daha ətraflı</button>
                 </div>
               </div>
