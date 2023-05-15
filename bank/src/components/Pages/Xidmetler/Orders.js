@@ -1,7 +1,12 @@
 import React from "react";
+import Onlineservice from "./Onlineservice/Onlineservice";
 
 const Orders = () => {
-  return <div>Orders</div>;
+  return (
+    <section>
+      <Onlineservice />
+    </section>
+  );
 };
 
 export default Orders;
