@@ -4,10 +4,10 @@ import Depfoot from "./DepositeFoot/Depfoot";
 
 const Deposits = () => {
   return (
-    <section>
+    <main>
       <Deposit />
       <Depfoot />
-    </section>
+    </main>
   );
 };
 

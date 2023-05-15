@@ -1,7 +1,12 @@
 import React from "react";
+import TransferCards from "./TransferCards/TransferCards";
 
 const Transfers = () => {
-  return <div>Transfers</div>;
+  return (
+    <main>
+      <TransferCards />
+    </main>
+  );
 };
 
 export default Transfers;
