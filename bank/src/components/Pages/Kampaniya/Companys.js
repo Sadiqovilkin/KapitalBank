@@ -1,7 +1,12 @@
 import React from "react";
+import Campaigns from "./Campaigns/Campaigns";
 
 const Companys = () => {
-  return <div>Companys</div>;
+  return (
+    <main>
+      <Campaigns />
+    </main>
+  );
 };
 
 export default Companys;
