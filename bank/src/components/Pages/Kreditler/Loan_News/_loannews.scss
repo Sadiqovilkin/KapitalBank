@@ -1,0 +1,91 @@
+#loannews {
+  .news_head {
+    text-align: center;
+    font-size: 14px;
+    font-family: $font-sourcePro;
+    color: $black-color;
+  }
+  .tags {
+    border-top: 1px solid #e8ecf1;
+    padding: 22px 0;
+    .container {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(91deg, hsla(0, 0%, 100%, 0.1), #fff 70%);
+        width: 130px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        pointer-events: none;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      padding-left: 0;
+      list-style: none;
+      overflow-x: auto;
+      position: relative;
+      padding-bottom: 10px;
+      padding-right: 50px;
+      li {
+        margin-right: 15px;
+        a {
+          text-decoration: none;
+          white-space: nowrap;
+          display: block;
+          padding: 10px 15px;
+          background: #e8ecf1;
+          border-radius: 8px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 14px;
+          color: #2e3131;
+        }
+      }
+    }
+  }
+  .section_footer {
+    background: #f9fafb;
+    margin-top: 40px;
+    font-family: $font-sourcePro;
+    ul {
+      width: 100%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-between;
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: unset;
+        padding: 6px 0;
+      }
+      li {
+        @media (max-width: 768px) {
+          border-bottom: 1px solid #eaeaea;
+        }
+        a {
+          @media (max-width: 768px) {
+            padding: 18px 0;
+          }
+          text-decoration: none;
+          font-size: 14px;
+          line-height: 18px;
+          color: #2e3131;
+          padding: 35px 0;
+          display: inline-block;
+        }
+        .active_link {
+          color: #f45369;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
