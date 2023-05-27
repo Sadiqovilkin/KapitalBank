@@ -44,7 +44,7 @@ const Deposit = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -61,7 +61,7 @@ const Deposit = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -78,7 +78,7 @@ const Deposit = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img

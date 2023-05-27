@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 const Navbar = () => {
+  const [navbar, setnavbar] = React.useState("opennavbar");
   return (
     <header>
       <div className="container-lg container-fluid-md">
@@ -48,6 +51,7 @@ const Navbar = () => {
                   viewBox="0 0 18 16"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  onClick={() => setnavbar("opennavbar")}
                 >
                   {" "}
                   <path
@@ -70,6 +74,219 @@ const Navbar = () => {
                     ></path>{" "}
                   </svg>
                 </svg>
+              </div>
+              <div className={navbar}>
+                <div className="container-fluid py-3">
+                  <div className="row border-bottom">
+                    <div className="col-4">
+                      <div className="mobile_btn">
+                        <ul>
+                          <li>
+                            <a className="active_btn" href="#">
+                              AZ
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">EN</a>
+                          </li>
+                          <li>
+                            <a href="#">RU</a>
+                          </li>
+                          <li>
+                            <a className="svg" href="#">
+                              <AiOutlineSearch />
+                            </a>
+                          </li>
+                          <li>
+                            {" "}
+                            <AiOutlineCloseCircle
+                              onClick={() => setnavbar("navbar")}
+                            />{" "}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row py-3">
+                    <div className="col-4">
+                      <div className="mobile_list_a">
+                        <a href="#" className="active_a">
+                          {" "}
+                          Fiziki şəxslər üçün{" "}
+                        </a>
+                        <a href=""> Biznes üçün </a>
+                      </div>
+                      <div className="mobile_list_accardion">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                KARTLAR
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul>
+                                  <li className="dark_li">Butun Kartlar</li>
+                                  <li className="dark_li">Taksit Kartlar</li>
+                                  <li className="dark_li">Depet Kartlar</li>
+                                  <li className="dark_li">Digital Kartlar</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                KREDİTLƏR
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul>
+                                  <li className="dark_li">Butun Kreditler</li>
+                                  <li className="dark_li">
+                                    Gundelik Kreditler
+                                  </li>
+                                  <li>Mikro Biznes Kreditler</li>
+                                  <li>Teminat manat Kreditler</li>
+                                  <li> Emanet Kreditler</li>
+                                  <li>Avtomobil Kreditler</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <a href="#">İPOTEKALAR</a>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                DEPOZİTLƏR
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul>
+                                  <li className="dark_li">Butun Kreditler</li>
+                                  <li className="dark_li">
+                                    Gundelik Kreditler
+                                  </li>
+                                  <li>Mikro Biznes Kreditler</li>
+                                  <li>Teminat manat Kreditler</li>
+                                  <li> Emanet Kreditler</li>
+                                  <li>Avtomobil Kreditler</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                PUL KÖÇÜRMƏLƏRİ
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFour"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul>
+                                  <li className="dark_li">Butun Kreditler</li>
+                                  <li className="dark_li">
+                                    Gundelik Kreditler
+                                  </li>
+                                  <li>Mikro Biznes Kreditler</li>
+                                  <li>Teminat manat Kreditler</li>
+                                  <li> Emanet Kreditler</li>
+                                  <li>Avtomobil Kreditler</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                ONLAYN XİDMƏTLƏR
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFive"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul>
+                                  <li className="dark_li">Butun Kreditler</li>
+                                  <li className="dark_li">
+                                    Gundelik Kreditler
+                                  </li>
+                                  <li>Mikro Biznes Kreditler</li>
+                                  <li>Teminat manat Kreditler</li>
+                                  <li> Emanet Kreditler</li>
+                                  <li>Avtomobil Kreditler</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="acc_item">
+                            <a href="#">KAMPANİYALAR</a>
+                            <a href="#">FƏRDİ BANKÇILIQ</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

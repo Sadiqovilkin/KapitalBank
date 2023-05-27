@@ -99,6 +99,7 @@
     background: #f9fafb;
     padding: 23px 34px;
     width: 100%;
+    height: calc(100%);
     .card_img {
       width: 170px;
       height: 190px;
@@ -160,6 +161,9 @@
           line-height: 23px;
           color: #2e3131;
           border: none;
+          @media (max-width: 1200px) {
+            margin-left: 13px;
+          }
           @media (max-width: 768px) {
             border: 1px solid #eaeaea;
             width: 100%;
@@ -168,6 +172,7 @@
             border-radius: 10px;
             background-color: transparent;
             margin: 0;
+            margin-left: 0;
           }
         }
       }

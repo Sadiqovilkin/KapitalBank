@@ -17,7 +17,7 @@ const TransferCards = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="transfer_card">
               <div className="card_img">
                 <img
@@ -37,7 +37,7 @@ const TransferCards = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="transfer_card">
               <div className="card_img">
                 <img
@@ -54,7 +54,7 @@ const TransferCards = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="transfer_card">
               <div className="card_img">
                 <img
@@ -74,7 +74,7 @@ const TransferCards = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="transfer_card">
               <div className="card_img">
                 <img

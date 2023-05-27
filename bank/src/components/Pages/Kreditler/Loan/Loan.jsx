@@ -43,7 +43,7 @@ const Loan = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -63,7 +63,7 @@ const Loan = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -81,7 +81,7 @@ const Loan = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -92,6 +92,7 @@ const Loan = () => {
               <div className="card_desc">
                 <h4>Əmanət təminatlı kredit</h4>
                 <p>Əmanət məbləğinin 80%-i həcmində kredit</p>
+                <br />
                 <div className="buttons">
                   <a href="">Sifariş et</a>
                   <button>Daha ətraflı</button>
@@ -99,7 +100,7 @@ const Loan = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img
@@ -121,7 +122,7 @@ const Loan = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 g-4">
             <div className="loan_card">
               <div className="card_img">
                 <img

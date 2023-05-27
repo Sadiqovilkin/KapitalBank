@@ -25,6 +25,7 @@
     background: #f9fafb;
     padding: 23px 34px;
     width: 100%;
+    height: calc(100% - 20px);
     .card_img {
       width: 170px;
       height: 190px;
@@ -43,7 +44,7 @@
         text-align: center;
       }
       h4 {
-        font-size: 28px;
+        font-size: 27px;
         line-height: 35px;
         letter-spacing: 0.01em;
         margin-bottom: 0;

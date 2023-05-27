@@ -11,12 +11,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   window.location.pathname === "/" ||
     window.location.pathname === "/cards" ||
-    window.location.pathname === "/cards/cashback" ||
     window.location.pathname === "/loans" ||
     window.location.pathname === "/deposits" ||
     window.location.pathname === "/deposits/kapital" ||
     window.location.pathname === "/transfers" ||
     window.location.pathname === "/orders" ||
+    window.location.pathname === "/loans/avtomobil-krediti" ||
     window.location.pathname === "/company" ? (
     <BrowserRouter>
       <Layout>

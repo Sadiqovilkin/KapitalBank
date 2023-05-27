@@ -52,6 +52,7 @@ header {
     display: flex;
     gap: 15px;
     justify-content: end;
+
     .icon {
       display: flex;
       justify-content: center;
@@ -64,6 +65,123 @@ header {
         width: 100%;
         height: 100%;
         object-fit: contain;
+      }
+    }
+    .navbar {
+      position: absolute;
+      top: 0;
+      right: -1000px;
+      transition: 0.4s ease-in-out;
+    }
+    .opennavbar {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      z-index: 9999;
+      width: 100%;
+      background-color: $white-color;
+      transition: 0.4s ease-in-out;
+      .mobile_btn {
+        ul {
+          display: flex;
+          gap: 18px;
+          li {
+            list-style: none;
+            svg {
+              color: $pink-color;
+              width: 20px;
+              height: 20px;
+            }
+            a {
+              text-decoration: none;
+              border-radius: 4px;
+              border: 1px solid #e9ecf0;
+
+              width: 29px;
+              height: 28px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 14px;
+              font-family: $font-sourcePro;
+              color: #969898;
+            }
+            .svg {
+              border-color: $pink-color;
+              border-radius: 6px;
+            }
+            .active_btn {
+              background-color: $pink-color;
+              border-color: $pink-color;
+              color: #fff;
+            }
+          }
+        }
+      }
+      .mobile_list_a {
+        display: flex;
+        gap: 10px;
+        a {
+          background: #e8ecf1;
+          border-radius: 37px;
+          padding: 8px 10px 9px;
+          color: #969898;
+          font-size: 12px;
+          line-height: 15px;
+          text-decoration: none;
+        }
+        .active_a {
+          background-color: #f45369;
+          color: #fff;
+        }
+      }
+      .mobile_list_accardion {
+        .accordion {
+          .acc_item {
+            display: flex;
+            flex-direction: column;
+          }
+          a {
+            text-decoration: none;
+            padding: 10px 20px;
+
+            color: $black-color;
+            font-weight: 600;
+          }
+          .accordion-item {
+            border: none;
+            .accordion-body {
+              padding-top: 0;
+              ul {
+                padding: 0;
+                margin: 0;
+                li {
+                  color: rgba(0, 0, 0, 0.7);
+                  font-size: 14px;
+                  list-style: none;
+                  padding-bottom: 15px;
+                }
+                .dark_li {
+                  color: black;
+                }
+              }
+            }
+          }
+          .accordion-button {
+            outline: none;
+            border: none;
+            background-color: white;
+            color: $black-color;
+            font-weight: 600;
+            &:focus {
+              box-shadow: none;
+            }
+            &::after {
+              position: absolute;
+              left: -3px;
+            }
+          }
+        }
       }
     }
   }

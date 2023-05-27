@@ -1,7 +1,5 @@
 import Deposits from "./Pages/Depozitler/Deposits";
 import Home from "./Pages/Home/Home";
-import Cashback from "./Pages/Kartlar-Cashback/Cashback";
-import Cards from "./Pages/Kartlar/Cards";
 import Loans from "./Pages/Kreditler/Loans";
 import Transfers from "./Pages/Kocurmeler/Transfers";
 import Orders from "./Pages/Xidmetler/Orders";
@@ -15,18 +13,6 @@ const Routs = [
     exact: "true",
     component: <Home />,
     fallback: <Home />,
-  },
-  {
-    path: "/cards",
-    exact: "true",
-    component: <Cards />,
-    fallback: <Cards />,
-  },
-  {
-    path: "/cards/cashback",
-    exact: "true",
-    component: <Cashback />,
-    fallback: <Cashback />,
   },
   {
     path: "/loans",

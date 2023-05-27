@@ -25,9 +25,11 @@ const Calcuator = () => {
   const [percent, setpercent] = React.useState(15);
   const [month, setmonth] = React.useState(3);
   const [payment, setPayment] = React.useState(5000);
+
   const [cardprice, setCardPrice] = React.useState(2500);
   const [cardmont, setCardmont] = React.useState(11);
   const [cardvalue, setCardvalue] = React.useState(1025);
+
   const [depprice, setDepPrice] = React.useState(2500);
   const [depmont, setDepmont] = React.useState(11);
   const [depvalue, setDepvalue] = React.useState(1025);
@@ -45,16 +47,17 @@ const Calcuator = () => {
     const Sum2 = Math.floor(a / b);
     setCardvalue(Sum2);
   }
-  function CardSum(params) {
-    let a = Number(cardprice);
-    let b = Number(cardmont);
+  function DepSum(params) {
+    let a = Number(depprice);
+    let b = Number(depmont);
     const Sum2 = Math.floor(a / b);
-    setCardvalue(Sum2);
+    setDepvalue(Sum2);
   }
 
   useEffect(() => {
     summary();
     CardSum();
+    DepSum();
   }, [price, percent, month, cardprice, cardmont, depprice, depmont]);
 
   // clicked button add activeclass
