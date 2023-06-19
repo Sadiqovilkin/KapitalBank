@@ -147,8 +147,9 @@ const Banner = () => {
               src="https://www.kapitalbank.az/images/home/birbank-karti.svg"
               alt=""
             />
+            {/* <svg class="icon" role="img" aria-label="order cash loan"> <use xlink:href="#money"></use> </svg> */}
             <p className="card_title">
-              <strong>Taksit kartı </strong>sifariş et
+              <strong>Kredit </strong>sifariş et
             </p>
           </div>
           <div className="cart">
@@ -158,7 +159,7 @@ const Banner = () => {
               alt=""
             />
             <p className="card_title">
-              <strong>Taksit kartı </strong>sifariş et
+              <strong>Kampaniyalara </strong>sifariş et
             </p>
           </div>
           <div className="cart">
@@ -168,7 +169,7 @@ const Banner = () => {
               alt=""
             />
             <p className="card_title">
-              <strong>Taksit kartı </strong>sifariş et
+              <strong>İpoteka </strong>sifariş et
             </p>
           </div>
           <div className="cart">
@@ -178,7 +179,7 @@ const Banner = () => {
               alt=""
             />
             <p className="card_title">
-              <strong>Taksit kartı </strong>sifariş et
+              <strong>Debet kart </strong>sifariş et
             </p>
           </div>
         </div>

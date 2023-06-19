@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 const Navbar = () => {
-  const [navbar, setnavbar] = React.useState("opennavbar");
+  const [navbar, setnavbar] = React.useState("navbar");
   return (
     <header>
       <div className="container-lg container-fluid-md">
@@ -118,13 +118,13 @@ const Navbar = () => {
                       </div>
                       <div className="mobile_list_accardion">
                         <div
-                          class="accordion accordion-flush"
+                          className="accordion accordion-flush"
                           id="accordionFlushExample"
                         >
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
+                          <div className="accordion-item">
+                            <h2 className="accordion-header">
                               <button
-                                class="accordion-button collapsed"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne"
@@ -136,10 +136,10 @@ const Navbar = () => {
                             </h2>
                             <div
                               id="flush-collapseOne"
-                              class="accordion-collapse collapse"
+                              className="accordion-collapse collapse"
                               data-bs-parent="#accordionFlushExample"
                             >
-                              <div class="accordion-body">
+                              <div className="accordion-body">
                                 <ul>
                                   <li className="dark_li">Butun Kartlar</li>
                                   <li className="dark_li">Taksit Kartlar</li>
@@ -149,10 +149,10 @@ const Navbar = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
+                          <div className="accordion-item">
+                            <h2 className="accordion-header">
                               <button
-                                class="accordion-button collapsed"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo"
@@ -164,10 +164,10 @@ const Navbar = () => {
                             </h2>
                             <div
                               id="flush-collapseTwo"
-                              class="accordion-collapse collapse"
+                              className="accordion-collapse collapse"
                               data-bs-parent="#accordionFlushExample"
                             >
-                              <div class="accordion-body">
+                              <div className="accordion-body">
                                 <ul>
                                   <li className="dark_li">Butun Kreditler</li>
                                   <li className="dark_li">
@@ -182,10 +182,10 @@ const Navbar = () => {
                             </div>
                           </div>
                           <a href="#">İPOTEKALAR</a>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
+                          <div className="accordion-item">
+                            <h2 className="accordion-header">
                               <button
-                                class="accordion-button collapsed"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree"
@@ -197,10 +197,10 @@ const Navbar = () => {
                             </h2>
                             <div
                               id="flush-collapseThree"
-                              class="accordion-collapse collapse"
+                              className="accordion-collapse collapse"
                               data-bs-parent="#accordionFlushExample"
                             >
-                              <div class="accordion-body">
+                              <div className="accordion-body">
                                 <ul>
                                   <li className="dark_li">Butun Kreditler</li>
                                   <li className="dark_li">
@@ -214,10 +214,10 @@ const Navbar = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
+                          <div className="accordion-item">
+                            <h2 className="accordion-header">
                               <button
-                                class="accordion-button collapsed"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFour"
@@ -229,10 +229,10 @@ const Navbar = () => {
                             </h2>
                             <div
                               id="flush-collapseFour"
-                              class="accordion-collapse collapse"
+                              className="accordion-collapse collapse"
                               data-bs-parent="#accordionFlushExample"
                             >
-                              <div class="accordion-body">
+                              <div className="accordion-body">
                                 <ul>
                                   <li className="dark_li">Butun Kreditler</li>
                                   <li className="dark_li">
@@ -246,10 +246,10 @@ const Navbar = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
+                          <div className="accordion-item">
+                            <h2 className="accordion-header">
                               <button
-                                class="accordion-button collapsed"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFive"
@@ -261,10 +261,10 @@ const Navbar = () => {
                             </h2>
                             <div
                               id="flush-collapseFive"
-                              class="accordion-collapse collapse"
+                              className="accordion-collapse collapse"
                               data-bs-parent="#accordionFlushExample"
                             >
-                              <div class="accordion-body">
+                              <div className="accordion-body">
                                 <ul>
                                   <li className="dark_li">Butun Kreditler</li>
                                   <li className="dark_li">
