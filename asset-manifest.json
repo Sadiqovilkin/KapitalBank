@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KapitalBank-/static/css/main.788b9215.css",
+    "main.js": "/KapitalBank-/static/js/main.5f368929.js",
+    "index.html": "/KapitalBank-/index.html",
+    "main.788b9215.css.map": "/KapitalBank-/static/css/main.788b9215.css.map",
+    "main.5f368929.js.map": "/KapitalBank-/static/js/main.5f368929.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.788b9215.css",
+    "static/js/main.5f368929.js"
+  ]
+}
